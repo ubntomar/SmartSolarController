@@ -47,7 +47,7 @@ Este proyecto implementa un cargador solar basado en un ESP32 que:
 
 - **ESP32** con soporte para `ledcWrite` y WiFi.
 - **2 x Sensores INA219** (direcciones 0x40 y 0x41).
-- **Batería** (ejemplo: LiFePO4 o AGM de 12 V nominal).
+- **Batería** (AGM/GEL de 12 V nominal).
 - **Panel solar** acorde a la batería.
 - **MOSFET o driver** para manejar la carga con PWM.
 - Conexiones I2C en pines definidos (`SDA_PIN = 8`, `SCL_PIN = 9`) o adapta según tu placa.
